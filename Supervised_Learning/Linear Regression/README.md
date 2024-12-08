@@ -97,5 +97,5 @@ plt.show()
 ## Conclusion
 
 This project demonstrates how to implement a simple linear regression model using a custom neural network class in Python. The model can be further extended to handle more complex datasets and relationships, and future work may include experimenting with regularization techniques and different learning algorithms for improved performance.
-```
+
 
