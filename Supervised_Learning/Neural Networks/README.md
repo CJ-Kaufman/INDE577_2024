@@ -19,30 +19,40 @@ Each image is a 28x28 pixel grayscale image, which is flattened into a 784-dimen
 
 ## 3. Instructions for Reproducing Results
 
-Follow the steps below to reproduce the results from the code:
-
 ### Requirements:
 - Python 3.x
-- TensorFlow (for Keras module)
-- NumPy
-- Matplotlib
+- TensorFlow, NumPy, Matplotlib
 
-### Step 1: Install Required Libraries
-
-You can install the required libraries by running the following command:
+### Step 1: Install Libraries
+Install the required libraries using:
 
 ```bash
 pip install tensorflow numpy matplotlib
 ```
 
-### Step 2: Load the MNIST Dataset
-
-The MNIST dataset can be loaded using Keras as shown in the code. The images are then preprocessed by flattening and normalizing.
+### Step 2: Load and Preprocess Data
+Load the MNIST dataset and preprocess the images and labels:
 
 ```python
 from tensorflow import keras
 (train_X, train_y), (test_X, test_y) = keras.datasets.mnist.load_data()
-train_X = train_X / 255.0
-test_X = test_X / 255.0
+train_X, test_X = train_X / 255.0, test_X / 255.0
 ```
+
+### Step 3: Initialize and Train the Model
+Create the neural network and train it:
+
+```python
+net = DenseNetwork(layers=[784, 120, 145, 120, 10])
+net.train(flat_train_X, onehot_train_y)
+```
+
+### Step 4: Evaluate the Model
+Check the accuracy on the test set:
+
+```python
+accuracy = sum([int(net.predict(x) == y) for x, y in zip(flat_test_X, test_y)]) / len(onehot_test_y)
+print(f"Accuracy: {accuracy * 100:.2f}%")
+```
+
 
