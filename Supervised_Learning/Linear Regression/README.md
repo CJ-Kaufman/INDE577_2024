@@ -1,6 +1,4 @@
-Here is the content formatted for a clean and readable GitHub README file:
 
-```markdown
 # Linear Regression with Custom SingleNeuron Class
 
 This repository contains an implementation of **Linear Regression** using a custom `SingleNeuron` class, designed to predict one variable (bill depth) based on another (bill length) for **Adelie penguins**. The model is trained using a single artificial neuron with a linear activation function, and it is optimized using **stochastic gradient descent (SGD)**. The project includes data visualization, model training, and analysis of model performance, including the effect of learning rate on training accuracy.
