@@ -1,7 +1,7 @@
-Introduction
+###Introduction
 This repository contains an implementation of Linear Regression using a custom SingleNeuron class, designed to predict one variable (bill depth) based on another (bill length) for Adelie penguins. The model is trained using a single artificial neuron with a linear activation function, and it is optimized using stochastic gradient descent (SGD). The project includes data visualization, model training, and analysis of model performance, including the effect of learning rate on training accuracy.
 
-Key Features:
+###Key Features:
 Linear Regression Implementation using a simple neural network.
 Data Cleaning: Handling missing values and preprocessing data.
 Model Evaluation: Error analysis and learning rate tuning.
@@ -17,7 +17,7 @@ Data Description:
 Feature: bill_length_mm (length of the penguin's bill in millimeters)
 Target: bill_depth_mm (depth of the penguin's bill in millimeters)
 The dataset is loaded from a CSV file (palmer_penguins.csv), which you may need to upload or place in the correct directory when using the code on your local machine or on platforms like Google Colab.
-Instructions for Reproducing Results
+###Instructions for Reproducing Results
 Install dependencies: If you don't have the required libraries, install them using:
 
 bash
@@ -64,9 +64,9 @@ plt.ylabel("Mean Squared Error")
 plt.title("MSE during Training")
 plt.show()
 
-Summary of Results
+###Summary of Results
 The linear regression model successfully predicts the bill depth of Adelie penguins based on their bill length, with a positive correlation between the two variables.
 The Mean Squared Error (MSE) decreases over time during training, indicating the model's convergence.
 Learning rate has an impact on the model's training. A higher learning rate may lead to less accurate results, and it’s important to choose an optimal value for the model.
-Conclusion
+###Conclusion
 This project demonstrates how to implement a simple linear regression model using a custom neural network class in Python. The model can be further extended to handle more complex datasets and relationships, and future work may include experimenting with regularization techniques and different learning algorithms for improved performance.
