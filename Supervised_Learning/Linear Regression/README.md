@@ -99,9 +99,3 @@ plt.show()
 This project demonstrates how to implement a simple linear regression model using a custom neural network class in Python. The model can be further extended to handle more complex datasets and relationships, and future work may include experimenting with regularization techniques and different learning algorithms for improved performance.
 ```
 
-### Key formatting improvements:
-- The title and section headers are bolded and properly structured.
-- Code blocks are formatted using triple backticks (```), and each code snippet has a consistent language identifier (e.g., `bash`, `python`).
-- Lists are organized with bullet points for clarity.
-- Instructions are broken down into steps for easier reading.
-- The entire README follows a clean structure that is common in GitHub repositories, making it easy to follow.
