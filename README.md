@@ -27,7 +27,6 @@ This repository contains implementations of various machine learning algorithms,
   - [Image Compression with Singular Value Decomposition (SVD)](#image-compression-with-singular-value-decomposition-svd)
 - [Datasets](#datasets)
 - [Reproducing the Results](#reproducing-the-results)
-- [License](#license)
 
 ---
 
@@ -38,7 +37,7 @@ This section contains various algorithms for both regression and classification 
 ### The Perceptron
 
 - **Description**: A basic linear classifier used for binary classification tasks. It learns by iteratively adjusting weights based on the mistakes made during predictions.
-- **Task**: Binary classification on datasets like the Iris dataset.
+- **Task**: Binary classification on datasets like the Penguins dataset.
 
 ### Linear Regression
 
@@ -48,7 +47,7 @@ This section contains various algorithms for both regression and classification 
 ### Logistic Regression
 
 - **Description**: A method for binary classification that models the probability of a binary outcome based on one or more predictor variables.
-- **Task**: Binary classification problem using datasets like Penguins or Iris.
+- **Task**: Binary classification problem using datasets like Penguins.
 
 ### Neural Networks
 
