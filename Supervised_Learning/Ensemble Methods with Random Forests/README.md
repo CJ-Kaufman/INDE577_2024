@@ -6,9 +6,9 @@
 
 This repository implements three ensemble learning methods to classify penguin species based on physical features. The models evaluated are:
 
-1. **Hard Voting Classifier**: Combines predictions from multiple models (Logistic Regression, Random Forest, and Support Vector Machine) using majority voting.
-2. **Bagging (Bootstrap Aggregating)** : Uses multiple decision trees to reduce variance and improve classification accuracy, particularly with high bias models.
-3. **Random Forests** : An extension of Bagging that introduces random feature selection to further reduce variance and prevent overfitting, resulting in a more robust model.
+1. **Hard Voting Classifier** Combines predictions from multiple models (Logistic Regression, Random Forest, and Support Vector Machine) using majority voting.
+2. **Bagging (Bootstrap Aggregating)**  Uses multiple decision trees to reduce variance and improve classification accuracy, particularly with high bias models.
+3. **Random Forests**  An extension of Bagging that introduces random feature selection to further reduce variance and prevent overfitting, resulting in a more robust model.
 
 Each method is applied to classify penguin species from the `seaborn` dataset, with a focus on accuracy and comparison between models.
 
