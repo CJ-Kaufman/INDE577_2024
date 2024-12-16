@@ -1,5 +1,3 @@
----
-
 # Ensemble Boosting Implementation
 
 ## a. Brief Description of the Algorithms Implemented
@@ -39,5 +37,3 @@ To replicate the results in this repository, follow these steps:
 4. **Train the models:**
    - AdaBoostClassifier and GradientBoostingRegressor are used for classification and regression tasks respectively.
    - Follow the instructions in the notebook to visualize decision boundaries and model predictions.
-
----
