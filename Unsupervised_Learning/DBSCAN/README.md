@@ -9,7 +9,7 @@ This project implements the DBSCAN (Density-Based Spatial Clustering of Applicat
 
 In this implementation, the **Iris dataset** from the Seaborn library is used, which contains measurements of different attributes (sepal length, sepal width, petal length, and petal width) of three species of Iris flowers: **Setosa**, **Versicolor**, and **Virginica**. For this clustering task, only the petal length and petal width are used to demonstrate how DBSCAN can identify clusters within the data without prior knowledge of the species labels.
 
-## c. Instructions for Reproducing Your Results
+## c. Instructions for Reproducing Results
 
 To reproduce the results:
 
