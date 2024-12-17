@@ -20,7 +20,7 @@ This project demonstrates the application of **Boosting** algorithms, specifical
 - **Target Variable:** The cubic transformation of the feature with some added noise (y = X^3 + noise).
 - **Purpose:** This dataset is used to demonstrate the power of Gradient Boosting for regression tasks, where a model is trained to predict the cubic function of the input.
 
-## c. Instructions for Reproducing Your Results
+## c. Instructions for Reproducing Results
 
 To replicate the results in this repository, follow these steps:
 
