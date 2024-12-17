@@ -22,7 +22,7 @@ The dataset used for this implementation is the **Penguins dataset** from the `s
 
 Initially, the dataset includes three species of penguins (Adelie, Chinstrap, and Gentoo), but only two species (Gentoo and Chinstrap) are used for the classification tasks. The dataset is preprocessed by removing missing values and selecting two or four features for training the models.
 
-## c. Instructions for Reproducing Your Results
+## c. Instructions for Reproducing Results
 
 1. Clone the repository or open this notebook in **Google Colab**.
 2. Install the required libraries (if not already installed):
