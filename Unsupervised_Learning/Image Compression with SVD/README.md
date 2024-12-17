@@ -8,7 +8,7 @@ This implementation demonstrates the use of Singular Value Decomposition (SVD) f
 
 The dataset used in this implementation consists of grayscale images. A sample image of a hibiscus flower is provided, but users are encouraged to upload their own images. The image is processed to grayscale for simplicity before applying SVD.
 
-## c. Instructions for Reproducing Your Results
+## c. Instructions for Reproducing Results
 
 1. **Set up your environment**: This code is intended to run on Google Colab. You can open a new Colab notebook and paste the code into a cell.
    
